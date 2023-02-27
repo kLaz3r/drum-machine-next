@@ -1,0 +1,16 @@
+.Pad {
+  width: 5rem;
+  height: 5rem;
+  background-color: #666;
+  color: white;
+  border: 1px solid #888;
+  font-size: 2rem;
+  border-radius: 10px;
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
+    background-color: #00adb3;
+    opacity: 1;
+  }
+}
